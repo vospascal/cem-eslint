@@ -1686,5 +1686,5 @@ packages:
 
   file:../cem-rules:
     resolution: {directory: ../cem-rules, type: directory}
-    name: eslint-plugin-uc-rules
+    name: eslint-plugin-cem-rules
     dev: true
