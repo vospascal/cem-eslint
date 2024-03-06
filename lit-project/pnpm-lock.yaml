@@ -25,8 +25,11 @@ devDependencies:
   '@typescript-eslint/parser':
     specifier: ^6.7.3
     version: 6.21.0(eslint@8.57.0)(typescript@5.4.2)
+  cem-plugin-custom-jsdoc-tags:
+    specifier: 1.0.1
+    version: 1.0.1
   cem-plugin-expanded-types:
-    specifier: ^1.0.0
+    specifier: 1.2.0
     version: 1.2.0
   comment-parser:
     specifier: ^1.4.0
@@ -749,6 +752,10 @@ packages:
   /callsites@3.1.0:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
+    dev: true
+
+  /cem-plugin-custom-jsdoc-tags@1.0.1:
+    resolution: {integrity: sha512-t0/FhOMN8zfA2fCqoi8skn5Pj9oFWdBW+HJ2/lTD0UjM4si7dtIkbow1LdIOIGo5eLQxQkZ1NvrZ6JXUQz3ntA==}
     dev: true
 
   /cem-plugin-expanded-types@1.2.0:

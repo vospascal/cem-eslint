@@ -96,8 +96,13 @@
             "name": "LitElement",
             "package": "lit"
           },
-          "deprecated": "- this element is deprecated",
-          "jsDoc": "/**\n * An example element.\n *\n * @slot - This element has a slot\n * @csspart button - The button\n * \n * @aria-rules label - please supply a label attribute for accessibility\n * @aria-rules labelledby - please supply a labelledby attribute for accessibility\n * \n * @deprecated-attribute size - this attribute is deprecated\n * @deprecated - this element is deprecated\n * \n */",
+          "deprecated": [
+            "- this element is deprecated",
+            {
+              "name": "",
+              "description": "this element is deprecated"
+            }
+          ],
           "aria-rules": [
             {
               "name": "label",
