@@ -8,7 +8,7 @@
       "elements": [
         {
           "name": "my-element",
-          "description": "@deprecated\n\nAn example element.\n---\n\n\n### **Slots:**\n - _default_ - This element has a slot\n\n### **CSS Parts:**\n - **button** - The button",
+          "description": "\n---\n",
           "doc-url": "",
           "attributes": [
             {
@@ -17,20 +17,14 @@
               "value": { "type": "'medium' | 'large'", "default": "\"large\"" }
             },
             {
-              "name": "kind",
+              "name": "character",
               "description": "Kind of the starwars character.",
               "value": {
                 "type": "'c-3po' | 'r2d2' | 'yoda' | 'jedi' | 'sith' | 'bb8'",
                 "default": "\"sith\""
               }
-            },
-            {
-              "name": "count",
-              "description": "The number of times the button has been clicked.",
-              "value": { "type": "number", "default": "0" }
             }
           ],
-          "slots": [{ "name": "", "description": "This element has a slot" }],
           "events": [],
           "js": {
             "properties": [
@@ -40,16 +34,37 @@
                 "value": { "type": "'medium' | 'large'" }
               },
               {
-                "name": "kind",
+                "name": "character",
                 "description": "Kind of the starwars character.",
                 "value": {
                   "type": "'c-3po' | 'r2d2' | 'yoda' | 'jedi' | 'sith' | 'bb8'"
                 }
-              },
+              }
+            ],
+            "events": []
+          }
+        },
+        {
+          "name": "your-element",
+          "description": "@deprecated\n\n\n---\n",
+          "doc-url": "",
+          "attributes": [
+            {
+              "name": "species",
+              "description": "Species of the starwars character.",
+              "value": {
+                "type": "'human' | 'droid' | 'wookie' | 'ewok'",
+                "default": "\"human\""
+              }
+            }
+          ],
+          "events": [],
+          "js": {
+            "properties": [
               {
-                "name": "count",
-                "description": "The number of times the button has been clicked.",
-                "value": { "type": "number" }
+                "name": "species",
+                "description": "Species of the starwars character.",
+                "value": { "type": "'human' | 'droid' | 'wookie' | 'ewok'" }
               }
             ],
             "events": []
@@ -59,9 +74,7 @@
     },
     "css": {
       "properties": [],
-      "pseudo-elements": [
-        { "name": "part(button)", "description": "The button" }
-      ]
+      "pseudo-elements": []
     }
   }
 }

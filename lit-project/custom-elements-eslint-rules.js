@@ -2,11 +2,11 @@ module.exports = {
   "cem-rules/require-attrs": [
     "error",
     {
-      "tag": "my-element",
+      "tag": "your-element",
       "attr": "aria-label"
     },
     {
-      "tag": "my-element",
+      "tag": "your-element",
       "attr": "aria-labelledby"
     }
   ],
@@ -17,33 +17,23 @@ module.exports = {
       "attr": "size"
     }
   ],
-  "cem-rules/no-deprecated-tags": [
-    "error",
-    {
-      "tag": "my-element"
-    }
-  ],
   "cem-rules/use-attrs-values": [
     "error",
     {
-      "tag": "my-element",
-      "attr": "size",
+      "tag": "your-element",
+      "attr": "species",
       "values": [
-        "medium",
-        "large"
+        "human",
+        "droid",
+        "wookie",
+        "ewok"
       ]
-    },
+    }
+  ],
+  "cem-rules/no-deprecated-tags": [
+    "error",
     {
-      "tag": "my-element",
-      "attr": "kind",
-      "values": [
-        "c-3po",
-        "r2d2",
-        "yoda",
-        "jedi",
-        "sith",
-        "bb8"
-      ]
+      "tag": "your-element"
     }
   ]
 };

@@ -8,20 +8,8 @@
       "declarations": [
         {
           "kind": "class",
-          "description": "An example element.",
+          "description": "",
           "name": "MyElement",
-          "cssParts": [
-            {
-              "description": "The button",
-              "name": "button"
-            }
-          ],
-          "slots": [
-            {
-              "description": "This element has a slot",
-              "name": ""
-            }
-          ],
           "members": [
             {
               "kind": "field",
@@ -36,29 +24,14 @@
             },
             {
               "kind": "field",
-              "name": "kind",
+              "name": "character",
               "type": {
                 "text": "'c-3po' | 'r2d2' | 'yoda' | 'jedi' | 'sith' | 'bb8'"
               },
               "default": "\"sith\"",
               "description": "Kind of the starwars character.",
-              "attribute": "kind",
+              "attribute": "character",
               "reflects": true
-            },
-            {
-              "kind": "field",
-              "name": "count",
-              "type": {
-                "text": "number"
-              },
-              "default": "0",
-              "description": "The number of times the button has been clicked.",
-              "attribute": "count"
-            },
-            {
-              "kind": "method",
-              "name": "_onClick",
-              "privacy": "private"
             }
           ],
           "attributes": [
@@ -75,38 +48,22 @@
               }
             },
             {
-              "name": "kind",
+              "name": "character",
               "type": {
                 "text": "'c-3po' | 'r2d2' | 'yoda' | 'jedi' | 'sith' | 'bb8'"
               },
               "default": "\"sith\"",
               "description": "Kind of the starwars character.",
-              "fieldName": "kind",
+              "fieldName": "character",
               "expandedType": {
                 "text": "'c-3po' | 'r2d2' | 'yoda' | 'jedi' | 'sith' | 'bb8'"
               }
-            },
-            {
-              "name": "count",
-              "type": {
-                "text": "number"
-              },
-              "default": "0",
-              "description": "The number of times the button has been clicked.",
-              "fieldName": "count"
             }
           ],
           "superclass": {
             "name": "LitElement",
             "package": "lit"
           },
-          "deprecated": [
-            "- this element is deprecated",
-            {
-              "name": "",
-              "description": "this element is deprecated"
-            }
-          ],
           "aria-rules": [
             {
               "name": "label",
@@ -142,6 +99,85 @@
           "declaration": {
             "name": "MyElement",
             "module": "src/my-element.lit.ts"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/your-element.lit.ts",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "YourElement",
+          "members": [
+            {
+              "kind": "field",
+              "name": "species",
+              "type": {
+                "text": "'human' | 'droid' | 'wookie' | 'ewok'"
+              },
+              "default": "\"human\"",
+              "description": "Species of the starwars character.",
+              "attribute": "species",
+              "reflects": true
+            }
+          ],
+          "attributes": [
+            {
+              "name": "species",
+              "type": {
+                "text": "'human' | 'droid' | 'wookie' | 'ewok'"
+              },
+              "default": "\"human\"",
+              "description": "Species of the starwars character.",
+              "fieldName": "species",
+              "expandedType": {
+                "text": "'human' | 'droid' | 'wookie' | 'ewok'"
+              }
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "deprecated": [
+            "- this element is deprecated",
+            {
+              "name": "",
+              "description": "this element is deprecated"
+            }
+          ],
+          "aria-rules": [
+            {
+              "name": "label",
+              "description": "please supply a label attribute for accessibility"
+            },
+            {
+              "name": "labelledby",
+              "description": "please supply a labelledby attribute for accessibility"
+            }
+          ],
+          "tagName": "your-element",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "YourElement",
+          "declaration": {
+            "name": "YourElement",
+            "module": "src/your-element.lit.ts"
+          }
+        },
+        {
+          "kind": "custom-element-definition",
+          "name": "your-element",
+          "declaration": {
+            "name": "YourElement",
+            "module": "src/your-element.lit.ts"
           }
         }
       ]

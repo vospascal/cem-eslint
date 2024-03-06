@@ -4,7 +4,7 @@
   "tags": [
     {
       "name": "my-element",
-      "description": "@deprecated\n\nAn example element.\n---\n\n\n### **Slots:**\n - _default_ - This element has a slot\n\n### **CSS Parts:**\n - **button** - The button",
+      "description": "\n---\n",
       "attributes": [
         {
           "name": "size",
@@ -12,7 +12,7 @@
           "values": [{ "name": "medium" }, { "name": "large" }]
         },
         {
-          "name": "kind",
+          "name": "character",
           "description": "Kind of the starwars character.",
           "values": [
             { "name": "c-3po" },
@@ -22,11 +22,23 @@
             { "name": "sith" },
             { "name": "bb8" }
           ]
-        },
+        }
+      ],
+      "references": []
+    },
+    {
+      "name": "your-element",
+      "description": "@deprecated\n\n\n---\n",
+      "attributes": [
         {
-          "name": "count",
-          "description": "The number of times the button has been clicked.",
-          "values": []
+          "name": "species",
+          "description": "Species of the starwars character.",
+          "values": [
+            { "name": "human" },
+            { "name": "droid" },
+            { "name": "wookie" },
+            { "name": "ewok" }
+          ]
         }
       ],
       "references": []
