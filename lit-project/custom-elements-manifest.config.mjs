@@ -20,7 +20,7 @@ export default {
   /** Run in watch mode, runs on file changes */
   watch: true,
   /** Include third party custom elements manifests */
-  dependencies: true,
+  dependencies: false,
   /** Output CEM path to `package.json`, defaults to true */
   packagejson: true,
   /** Enable special handling for litelement */
