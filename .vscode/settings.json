@@ -5,6 +5,7 @@
     "css.customData": [
         "./lit-project/vscode.css-custom-data.json"
     ],
+    "eslint.enable": true,
     "eslint.validate": [
         {
             "language": "javascript",
