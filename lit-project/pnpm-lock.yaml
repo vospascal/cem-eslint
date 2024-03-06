@@ -34,6 +34,12 @@ devDependencies:
   comment-parser:
     specifier: ^1.4.0
     version: 1.4.1
+  custom-element-jet-brains-integration:
+    specifier: 1.4.4
+    version: 1.4.4
+  custom-element-vs-code-integration:
+    specifier: 1.2.3
+    version: 1.2.3
   custom-elements-manifest:
     specifier: ^2.0.0
     version: 2.0.0
@@ -829,6 +835,18 @@ packages:
       which: 2.0.2
     dev: true
 
+  /custom-element-jet-brains-integration@1.4.4:
+    resolution: {integrity: sha512-HEiTy5jBKQa1QdC5jaFbFkXkhHmgwJ0oRLjKK/mZuxuUx0+/wCFRjHBZX51qu5KYj6Ta/gPXcr3blCzuBHXF7A==}
+    dependencies:
+      prettier: 2.8.8
+    dev: true
+
+  /custom-element-vs-code-integration@1.2.3:
+    resolution: {integrity: sha512-6RaLe2J2xFRtacRsFpDMN3WYbwntND5yNeFZfdGgYqfAYktwCZhAHdd+fLZo+YiTqGuHp6KoMQrd34MbYaHecQ==}
+    dependencies:
+      prettier: 2.8.8
+    dev: true
+
   /custom-elements-manifest@1.0.0:
     resolution: {integrity: sha512-j59k0ExGCKA8T6Mzaq+7axc+KVHwpEphEERU7VZ99260npu/p/9kd+Db+I3cGKxHkM5y6q5gnlXn00mzRQkX2A==}
     dev: true
@@ -1467,6 +1485,12 @@ packages:
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
+    dev: true
+
+  /prettier@2.8.8:
+    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   /punycode@2.3.1:

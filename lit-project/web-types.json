@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JetBrains/web-types/master/schema/web-types.json",
+  "name": "vite-project",
+  "version": "0.0.0",
+  "description-markup": "markdown",
+  "contributions": {
+    "html": {
+      "elements": [
+        {
+          "name": "my-element",
+          "description": "@deprecated\n\nAn example element.\n---\n\n\n### **Slots:**\n - _default_ - This element has a slot\n\n### **CSS Parts:**\n - **button** - The button",
+          "doc-url": "",
+          "attributes": [
+            {
+              "name": "size",
+              "description": "Size of the starwars character.",
+              "value": { "type": "'medium' | 'large'", "default": "\"large\"" }
+            },
+            {
+              "name": "kind",
+              "description": "Kind of the starwars character.",
+              "value": {
+                "type": "'c-3po' | 'r2d2' | 'yoda' | 'jedi' | 'sith' | 'bb8'",
+                "default": "\"sith\""
+              }
+            },
+            {
+              "name": "count",
+              "description": "The number of times the button has been clicked.",
+              "value": { "type": "number", "default": "0" }
+            }
+          ],
+          "slots": [{ "name": "", "description": "This element has a slot" }],
+          "events": [],
+          "js": {
+            "properties": [
+              {
+                "name": "size",
+                "description": "Size of the starwars character.",
+                "value": { "type": "'medium' | 'large'" }
+              },
+              {
+                "name": "kind",
+                "description": "Kind of the starwars character.",
+                "value": {
+                  "type": "'c-3po' | 'r2d2' | 'yoda' | 'jedi' | 'sith' | 'bb8'"
+                }
+              },
+              {
+                "name": "count",
+                "description": "The number of times the button has been clicked.",
+                "value": { "type": "number" }
+              }
+            ],
+            "events": []
+          }
+        }
+      ]
+    },
+    "css": {
+      "properties": [],
+      "pseudo-elements": [
+        { "name": "part(button)", "description": "The button" }
+      ]
+    }
+  }
+}

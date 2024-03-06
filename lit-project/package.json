@@ -19,6 +19,8 @@
     "@custom-elements-manifest/analyzer": "^0.8.4",
     "cem-plugin-expanded-types": "1.2.0",
     "cem-plugin-custom-jsdoc-tags" :"1.0.1",
+    "custom-element-jet-brains-integration": "1.4.4",
+    "custom-element-vs-code-integration": "1.2.3",
     "custom-elements-manifest": "^2.0.0",
     "@html-eslint/parser": "^0.19.1",
     "eslint": "^8.50.0",

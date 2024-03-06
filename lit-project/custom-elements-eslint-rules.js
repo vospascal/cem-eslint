@@ -32,6 +32,18 @@ module.exports = {
         "medium",
         "large"
       ]
+    },
+    {
+      "tag": "my-element",
+      "attr": "kind",
+      "values": [
+        "c-3po",
+        "r2d2",
+        "yoda",
+        "jedi",
+        "sith",
+        "bb8"
+      ]
     }
   ]
 };

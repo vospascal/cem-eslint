@@ -1,0 +1,13 @@
+{
+    "html.customData": [
+        "./lit-project/vscode.html-custom-data.json"
+    ],
+    "css.customData": [
+        "./lit-project/vscode.css-custom-data.json"
+    ],
+    "eslint.workingDirectories": [
+        {
+            "pattern": "./lit-project/*/"
+        },
+    ]
+}

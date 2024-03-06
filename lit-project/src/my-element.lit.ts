@@ -1,8 +1,7 @@
 import { LitElement, css, html } from 'lit'
 import { customElement, property } from 'lit/decorators.js'
-
-
-type InputSize = "medium" | "large";
+export type CharacterKind = 'c-3po'|'r2d2'|'yoda'|'jedi'|'sith'|'bb8';
+type CharacterSize = "medium" | "large";
 
 /**
  * An example element.
@@ -29,10 +28,12 @@ export class MyElement extends LitElement {
     `
   ]
 
-  /** Size of the text input, either medium or large. */
-  @property({ reflect: true }) size: InputSize = "large";
+  /** Size of the starwars character. */
+  @property({ reflect: true }) size: CharacterSize = "large";
 
 
+  /** Kind of the starwars character. */
+  @property({ reflect: true }) kind: CharacterKind = "sith";
   /**
    * The number of times the button has been clicked.
    */

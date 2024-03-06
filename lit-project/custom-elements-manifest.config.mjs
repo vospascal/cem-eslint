@@ -3,6 +3,8 @@ import {parse} from 'comment-parser';
 import {getTsProgram, expandTypesPlugin} from "./expandTypesTSPlugin.mjs";
 import {customElementEslintPlugin} from "./customElementEslintPlugin.mjs";
 import { customJSDocTagsPlugin } from "cem-plugin-custom-jsdoc-tags";
+import {customElementVsCodePlugin} from "custom-element-vs-code-integration";
+import {customElementJetBrainsPlugin} from "custom-element-jet-brains-integration";
 
 function noDash(string) {
   return string.replace(/^\s?-/, '').trim();
@@ -38,8 +40,6 @@ export default {
   /** Provide custom plugins */
   plugins: [
     expandTypesPlugin(),
-    // customTags(),
-    customElementEslintPlugin(),
     customJSDocTagsPlugin({
       tags: {
         since: {},
@@ -56,5 +56,8 @@ export default {
         "deprecated" : {}
       }
     }),
+    customElementVsCodePlugin(),
+    customElementJetBrainsPlugin(),
+    customElementEslintPlugin(),
   ],
 };

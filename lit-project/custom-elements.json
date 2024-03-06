@@ -30,19 +30,20 @@
                 "text": "'medium' | 'large'"
               },
               "default": "\"large\"",
-              "description": "Size of the text input, either medium or large.",
+              "description": "Size of the starwars character.",
               "attribute": "size",
               "reflects": true
             },
             {
               "kind": "field",
-              "name": "docsHint",
+              "name": "kind",
               "type": {
-                "text": "string"
+                "text": "'c-3po' | 'r2d2' | 'yoda' | 'jedi' | 'sith' | 'bb8'"
               },
-              "default": "'Click on the Vite and Lit logos to learn more'",
-              "description": "Copy for the read the docs hint.",
-              "attribute": "docsHint"
+              "default": "\"sith\"",
+              "description": "Kind of the starwars character.",
+              "attribute": "kind",
+              "reflects": true
             },
             {
               "kind": "field",
@@ -67,20 +68,23 @@
                 "text": "'medium' | 'large'"
               },
               "default": "\"large\"",
-              "description": "Size of the text input, either medium or large.",
+              "description": "Size of the starwars character.",
               "fieldName": "size",
               "expandedType": {
                 "text": "'medium' | 'large'"
               }
             },
             {
-              "name": "docsHint",
+              "name": "kind",
               "type": {
-                "text": "string"
+                "text": "'c-3po' | 'r2d2' | 'yoda' | 'jedi' | 'sith' | 'bb8'"
               },
-              "default": "'Click on the Vite and Lit logos to learn more'",
-              "description": "Copy for the read the docs hint.",
-              "fieldName": "docsHint"
+              "default": "\"sith\"",
+              "description": "Kind of the starwars character.",
+              "fieldName": "kind",
+              "expandedType": {
+                "text": "'c-3po' | 'r2d2' | 'yoda' | 'jedi' | 'sith' | 'bb8'"
+              }
             },
             {
               "name": "count",
