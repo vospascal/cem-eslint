@@ -2,7 +2,6 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build  && node copy.mjs",
@@ -23,7 +22,10 @@
     "@html-eslint/parser": "^0.19.1",
     "eslint": "^8.50.0",
     "eslint-plugin-html": "^7.1.0",
-    "eslint-plugin-uc-rules": "file:../rules"
+    "eslint-plugin-cem-rules": "file:./../cem-rules",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "@types/eslint": "^8.44.3"
   },
   "customElements": "custom-elements.json"
 }

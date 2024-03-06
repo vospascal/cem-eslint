@@ -4,7 +4,7 @@
 
 // https://github.com/cletusw/eslint-plugin-local-rules
 // https://classic.yarnpkg.com/en/docs/cli/add/
-//   yarn add --dev file:./uc-rules
+//   yarn add --dev file:./../cem-rules
 
 module.exports = {
   rules: {

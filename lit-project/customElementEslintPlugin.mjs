@@ -70,7 +70,7 @@ function makeAriaRules(decl, options) {
 
   return [
     {
-      "uc-rules/require-attrs": [
+      "cem-rules/require-attrs": [
         "error",
         ...rules,
       ],
@@ -92,7 +92,7 @@ function makeDeprecatedAttributeRules(decl, options) {
 
   return [
     {
-      "uc-rules/no-deprecated-attrs": [
+      "cem-rules/no-deprecated-attrs": [
         "error",
         ...rules,
       ],
@@ -111,7 +111,7 @@ function makeDeprecatedElementRules(decl, options) {
 
   return [
     {
-      "uc-rules/no-deprecated-tags": [
+      "cem-rules/no-deprecated-tags": [
         "error",
         ...rules,
       ],
@@ -148,7 +148,7 @@ function makeAttribtuteValueRules(decl, options) {
   if(rules.length === 0) return []
   return [
     {
-      "uc-rules/use-attrs-values": [
+      "cem-rules/use-attrs-values": [
         "error",
         ...rules,
       ],

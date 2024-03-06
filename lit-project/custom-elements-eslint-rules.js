@@ -1,5 +1,5 @@
 module.exports = {
-  "uc-rules/require-attrs": [
+  "cem-rules/require-attrs": [
     "error",
     {
       "tag": "my-element",
@@ -10,20 +10,20 @@ module.exports = {
       "attr": "aria-labelledby"
     }
   ],
-  "uc-rules/no-deprecated-attrs": [
+  "cem-rules/no-deprecated-attrs": [
     "error",
     {
       "tag": "my-element",
       "attr": "size"
     }
   ],
-  "uc-rules/no-deprecated-tags": [
+  "cem-rules/no-deprecated-tags": [
     "error",
     {
       "tag": "my-element"
     }
   ],
-  "uc-rules/use-attrs-values": [
+  "cem-rules/use-attrs-values": [
     "error",
     {
       "tag": "my-element",
