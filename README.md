@@ -7,3 +7,6 @@
     - usage is based currently on `@html-eslint/parser` [github html-eslint](https://github.com/yeonjuan/html-eslint/tree/main/packages/eslint-plugin)
 - `pnpm lint`  in the lit-project dir to run eslint to view errors in the console
 - open the `index.html` file in the lit-project dir to view errors in the editor
+
+
+more inspiration https://github.com/github/eslint-plugin-github/blob/main/lib/rules/unescaped-html-literal.js
