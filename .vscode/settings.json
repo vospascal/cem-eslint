@@ -5,6 +5,23 @@
     "css.customData": [
         "./lit-project/vscode.css-custom-data.json"
     ],
+    "eslint.validate": [
+        {
+            "language": "javascript",
+        },
+        {
+            "language": "typescript",
+        },
+        {
+            "language": "html",
+        },
+        {
+            "language": "javascriptreact",
+        },
+        {
+            "language": "typescriptreact",
+        }
+    ],
     "eslint.workingDirectories": [
         {
             "pattern": "./lit-project/*/"
