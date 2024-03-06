@@ -31,6 +31,7 @@ export class YourElement extends LitElement {
       <div class="card">
         species: ${this.species}
       </div>
+      <my-element character="IG-11"></my-element>
     `
   }
 
