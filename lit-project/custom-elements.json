@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "src/my-element.lit.ts",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "An example element.",
+          "name": "MyElement",
+          "cssParts": [
+            {
+              "description": "The button",
+              "name": "button"
+            }
+          ],
+          "slots": [
+            {
+              "description": "This element has a slot",
+              "name": ""
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "size",
+              "type": {
+                "text": "'medium' | 'large'"
+              },
+              "default": "\"large\"",
+              "description": "Size of the text input, either medium or large.",
+              "attribute": "size",
+              "reflects": true
+            },
+            {
+              "kind": "field",
+              "name": "docsHint",
+              "type": {
+                "text": "string"
+              },
+              "default": "'Click on the Vite and Lit logos to learn more'",
+              "description": "Copy for the read the docs hint.",
+              "attribute": "docsHint"
+            },
+            {
+              "kind": "field",
+              "name": "count",
+              "type": {
+                "text": "number"
+              },
+              "default": "0",
+              "description": "The number of times the button has been clicked.",
+              "attribute": "count"
+            },
+            {
+              "kind": "method",
+              "name": "_onClick",
+              "privacy": "private"
+            }
+          ],
+          "attributes": [
+            {
+              "name": "size",
+              "type": {
+                "text": "'medium' | 'large'"
+              },
+              "default": "\"large\"",
+              "description": "Size of the text input, either medium or large.",
+              "fieldName": "size",
+              "expandedType": {
+                "text": "'medium' | 'large'"
+              }
+            },
+            {
+              "name": "docsHint",
+              "type": {
+                "text": "string"
+              },
+              "default": "'Click on the Vite and Lit logos to learn more'",
+              "description": "Copy for the read the docs hint.",
+              "fieldName": "docsHint"
+            },
+            {
+              "name": "count",
+              "type": {
+                "text": "number"
+              },
+              "default": "0",
+              "description": "The number of times the button has been clicked.",
+              "fieldName": "count"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "deprecated": "- this element is deprecated",
+          "jsDoc": "/**\n * An example element.\n *\n * @slot - This element has a slot\n * @csspart button - The button\n * \n * @aria-rules label - please supply a label attribute for accessibility\n * @aria-rules labelledby - please supply a labelledby attribute for accessibility\n * \n * @deprecated-attribute size - this attribute is deprecated\n * @deprecated - this element is deprecated\n * \n */",
+          "aria-rules": [
+            {
+              "name": "label",
+              "description": "please supply a label attribute for accessibility"
+            },
+            {
+              "name": "labelledby",
+              "description": "please supply a labelledby attribute for accessibility"
+            }
+          ],
+          "deprecated-attribute": [
+            {
+              "name": "size",
+              "description": "this attribute is deprecated"
+            }
+          ],
+          "tagName": "my-element",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "MyElement",
+          "declaration": {
+            "name": "MyElement",
+            "module": "src/my-element.lit.ts"
+          }
+        },
+        {
+          "kind": "custom-element-definition",
+          "name": "my-element",
+          "declaration": {
+            "name": "MyElement",
+            "module": "src/my-element.lit.ts"
+          }
+        }
+      ]
+    }
+  ]
+}
