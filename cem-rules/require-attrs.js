@@ -92,27 +92,30 @@ module.exports = {
         }
         check(node, tagName);
       },
-      // Literal(node) {
-      //   if (typeof node.value === 'string') {
-      //     // Check if the string looks like an HTML tag and apply some basic validation
-      //     // Note: This is a simplified check and might need adjustments
-      //     const tagMatch = node.value.match(/^<(\w+)(\s|>)/);
-      //     if (tagMatch) {
-      //       const tagName = tagMatch[1].toLowerCase();
-      //       check(node, tagName);
-      //     }
-      //   }
-      // },
-      // TemplateLiteral(node) {
-      //   const quasi = node.quasis[0]; // Considering only the first part for simplicity
-      //   if (quasi && typeof quasi.value.raw === 'string') {
-      //     const tagMatch = quasi.value.raw.match(/^<(\w+)(\s|>)/);
-      //     if (tagMatch) {
-      //       const tagName = tagMatch[1].toLowerCase();
-      //       check(node, tagName);
-      //     }
-      //   }
-      // },
+//       Literal(node) {
+//         if (typeof node.value === 'string') {
+//           // Check if the string looks like an HTML tag and apply some basic validation
+//           // Note: This is a simplified check and might need adjustments
+//           const tagMatch = node.value.match(/^<(\w+)(\s|>)/);
+//           if (tagMatch) {
+//             console.log(tagName,'tagName')
+//             const tagName = tagMatch[1].toLowerCase();
+//             check(node, tagName);
+//           }
+//         }
+//       },
+// TemplateLiteral(node) {
+//         node.quasis.forEach((quasi) => {
+//           if (typeof quasi.value.raw === 'string') {
+//             const tagMatch = quasi.value.raw.match(/^<(\w+)(\s|>)/);
+//             if (tagMatch) {
+//               const tagName = tagMatch[1].toLowerCase();
+//               console.log(tagName,'tagName')
+//               check(node, tagName);
+//             }
+//           }
+//         });
+//       },
     };
   },
 };

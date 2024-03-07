@@ -20,7 +20,7 @@ module.exports = {
   ],
   overrides: [
     {
-      files: ["*.html","*.ts"],
+      files: ["**/*.html","**/*.ts"],
       parser: "@html-eslint/parser",
     },
   ],
