@@ -13,6 +13,12 @@ devDependencies:
   '@custom-elements-manifest/analyzer':
     specifier: ^0.8.4
     version: 0.8.4
+  '@eslint-plugin-cem/parser':
+    specifier: file:./../eslint-plugin-cem/parser
+    version: file:../eslint-plugin-cem/parser
+  '@eslint-plugin-cem/rules':
+    specifier: file:./../eslint-plugin-cem/rules
+    version: file:../eslint-plugin-cem/rules
   '@html-eslint/parser':
     specifier: ^0.19.1
     version: 0.19.1
@@ -46,9 +52,6 @@ devDependencies:
   eslint:
     specifier: ^8.50.0
     version: 8.57.0
-  eslint-plugin-cem-rules:
-    specifier: file:./../cem-rules
-    version: file:../cem-rules
   eslint-plugin-html:
     specifier: ^7.1.0
     version: 7.1.0
@@ -1715,7 +1718,12 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  file:../cem-rules:
-    resolution: {directory: ../cem-rules, type: directory}
-    name: eslint-plugin-cem-rules
+  file:../eslint-plugin-cem/parser:
+    resolution: {directory: ../eslint-plugin-cem/parser, type: directory}
+    name: '@eslint-plugin-cem/parser'
+    dev: true
+
+  file:../eslint-plugin-cem/rules:
+    resolution: {directory: ../eslint-plugin-cem/rules, type: directory}
+    name: '@eslint-plugin-cem/rules'
     dev: true
