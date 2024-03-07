@@ -16,12 +16,13 @@ module.exports = {
   "plugins": [
     "html",
     "@typescript-eslint",
-    "cem-rules"
+    "@eslint-plugin-cem/rules"
   ],
   overrides: [
     {
       files: ["**/*.html","**/*.ts"],
-      parser: "@html-eslint/parser",
+      // parser: "@html-eslint/parser",
+      parser: "@eslint-plugin-cem/parser",
     },
   ],
   rules: {

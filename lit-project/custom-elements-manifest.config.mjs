@@ -14,7 +14,7 @@ function noDash(string) {
 const typesByAliasMap = new Map()
 export default {
   /** Globs to analyze */
-  globs: ["src/**/*.lit.ts", "src/**/*.helper.ts"],
+  globs: ["src/**/*.lit.ts"],
   /** Directory to output CEM to */
   outdir: "./",
   /** Run in dev mode, provides extra logging */
