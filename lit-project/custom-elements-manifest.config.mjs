@@ -1,5 +1,4 @@
 
-import {parse} from 'comment-parser';
 import {getTsProgram, expandTypesPlugin} from "./expandTypesTSPlugin.mjs";
 import {customElementEslintPlugin} from "./customElementEslintPlugin.mjs";
 import { customJSDocTagsPlugin } from "cem-plugin-custom-jsdoc-tags";

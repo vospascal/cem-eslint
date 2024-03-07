@@ -28,12 +28,6 @@ devDependencies:
   cem-plugin-custom-jsdoc-tags:
     specifier: 1.0.1
     version: 1.0.1
-  cem-plugin-expanded-types:
-    specifier: 1.2.0
-    version: 1.2.0
-  comment-parser:
-    specifier: ^1.4.0
-    version: 1.4.1
   custom-element-jet-brains-integration:
     specifier: 1.4.4
     version: 1.4.4
@@ -764,10 +758,6 @@ packages:
     resolution: {integrity: sha512-t0/FhOMN8zfA2fCqoi8skn5Pj9oFWdBW+HJ2/lTD0UjM4si7dtIkbow1LdIOIGo5eLQxQkZ1NvrZ6JXUQz3ntA==}
     dev: true
 
-  /cem-plugin-expanded-types@1.2.0:
-    resolution: {integrity: sha512-1cm40jeFEpLlH21/oJNWO0VgK891qX7OMOGZPNm5YOlSvLozEoVP89+myGR8QjYkx164m1OJRSrjhClLJq5Ftw==}
-    dev: true
-
   /chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
@@ -814,11 +804,6 @@ packages:
 
   /comment-parser@1.2.4:
     resolution: {integrity: sha512-pm0b+qv+CkWNriSTMsfnjChF9kH0kxz55y44Wo5le9qLxMj5xDQAaEd9ZN1ovSuk9CsrncWaFwgpOMg7ClJwkw==}
-    engines: {node: '>= 12.0.0'}
-    dev: true
-
-  /comment-parser@1.4.1:
-    resolution: {integrity: sha512-buhp5kePrmda3vhc5B9t7pUQXAb2Tnd0qgpkIhPhkHXxJpiPJ11H0ZEU0oBpJ2QztSbzG/ZxMj/CHsYJqRHmyg==}
     engines: {node: '>= 12.0.0'}
     dev: true
 
