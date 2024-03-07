@@ -21,6 +21,7 @@ module.exports = {
   overrides: [
     {
       files: ["**/*.html","**/*.ts"],
+      // parser: "eslint-plugin-cem/parser"
       parser: "@html-eslint/parser",
     },
   ],

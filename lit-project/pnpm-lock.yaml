@@ -1718,4 +1718,6 @@ packages:
   file:../eslint-plugin-cem:
     resolution: {directory: ../eslint-plugin-cem, type: directory}
     name: eslint-plugin-cem
+    dependencies:
+      es-html-parser: 0.0.9
     dev: true

@@ -1,5 +1,13 @@
 {
   "name": "eslint-plugin-cem",
   "version": "1.0.0",
-  "main": "index.js"
+  "exports": {
+    ".": {
+      "default": "./rules/index.js"
+    },
+    "./parser": "./parser/index.js"
+  },
+  "dependencies": {
+    "es-html-parser": "^0.0.9"
+  }
 }
