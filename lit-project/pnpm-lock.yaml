@@ -46,9 +46,9 @@ devDependencies:
   eslint:
     specifier: ^8.50.0
     version: 8.57.0
-  eslint-plugin-cem-rules:
-    specifier: file:./../cem-rules
-    version: file:../cem-rules
+  eslint-plugin-cem:
+    specifier: file:./../eslint-plugin-cem
+    version: file:../eslint-plugin-cem
   eslint-plugin-html:
     specifier: ^7.1.0
     version: 7.1.0
@@ -1715,7 +1715,7 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  file:../cem-rules:
-    resolution: {directory: ../cem-rules, type: directory}
-    name: eslint-plugin-cem-rules
+  file:../eslint-plugin-cem:
+    resolution: {directory: ../eslint-plugin-cem, type: directory}
+    name: eslint-plugin-cem
     dev: true

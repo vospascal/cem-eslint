@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-cem-rules",
+  "name": "eslint-plugin-cem",
   "version": "1.0.0",
   "main": "index.js"
 }

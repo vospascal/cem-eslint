@@ -16,7 +16,7 @@ module.exports = {
   "plugins": [
     "html",
     "@typescript-eslint",
-    "cem-rules"
+    "cem"
   ],
   overrides: [
     {

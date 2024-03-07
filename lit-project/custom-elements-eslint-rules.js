@@ -1,5 +1,5 @@
 module.exports = {
-  "cem-rules/require-attrs": [
+  "cem/require-attrs": [
     "error",
     {
       "tag": "your-element",
@@ -10,14 +10,14 @@ module.exports = {
       "attr": "aria-labelledby"
     }
   ],
-  "cem-rules/no-deprecated-attrs": [
+  "cem/no-deprecated-attrs": [
     "error",
     {
       "tag": "my-element",
       "attr": "size"
     }
   ],
-  "cem-rules/use-attrs-values": [
+  "cem/use-attrs-values": [
     "error",
     {
       "tag": "your-element",
@@ -30,7 +30,7 @@ module.exports = {
       ]
     }
   ],
-  "cem-rules/no-deprecated-tags": [
+  "cem/no-deprecated-tags": [
     "error",
     {
       "tag": "your-element"

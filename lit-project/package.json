@@ -7,7 +7,7 @@
     "build": "tsc && vite build  && node copy.mjs",
     "preview": "vite preview",
     "cem": "cem analyze",
-    "lint": "eslint . --ext .js,.cjs,.mjs,.ts,.html"
+    "lint": "eslint . --ext .js,.cjs,.mjs,.lit.ts,.html"
   },
   "dependencies": {
     "lit": "^3.1.2"
@@ -25,7 +25,7 @@
     "@html-eslint/parser": "^0.19.1",
     "eslint": "^8.50.0",
     "eslint-plugin-html": "^7.1.0",
-    "eslint-plugin-cem-rules": "file:./../cem-rules",
+    "eslint-plugin-cem": "file:./../eslint-plugin-cem",
     "@typescript-eslint/eslint-plugin": "^6.7.3",
     "@typescript-eslint/parser": "^6.7.3",
     "@types/eslint": "^8.44.3"
