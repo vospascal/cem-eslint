@@ -8,5 +8,6 @@
 - `pnpm lint`  in the lit-project dir to run eslint to view errors in the console
 - open the `index.html` file in the lit-project dir to view errors in the editor
 
+if your using eslint plugin it will underline the problems 
 
 more inspiration https://github.com/github/eslint-plugin-github/blob/main/lib/rules/unescaped-html-literal.js
