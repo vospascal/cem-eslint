@@ -13,7 +13,7 @@ if your using eslint plugin it will underline the problems
 more inspiration https://github.com/github/eslint-plugin-github/blob/main/lib/rules/unescaped-html-literal.js
 
 after having the discussion with [Burton Smit](https://github.com/break-stuff) he picked this up further:
-https://github.com/break-stuff/cem-tools/tree/main/packages/eslint-rules
-https://github.com/break-stuff/cem-tools/tree/main/packages/eslint-plugin
+- https://github.com/break-stuff/cem-tools/tree/main/packages/eslint-rules
+- https://github.com/break-stuff/cem-tools/tree/main/packages/eslint-plugin
 
 for more awesome CEM based tools see his repository https://github.com/break-stuff/cem-tools
